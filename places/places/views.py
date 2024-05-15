@@ -18,4 +18,4 @@ def PlaceCreate(request):
         place = Place()
         place.name = data_json["name"]
         place.save()
-        return HttpResponse("successfully created place")
+        return HttpResponse("Place created")
